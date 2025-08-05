@@ -26,3 +26,11 @@
     "vite": "^6.3.1"
   }
 }
+"homepage": "https://praveenparshiva.github.io/To-Do-List",
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "vite build && gh-pages -d dist"
+}
+
